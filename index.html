@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwan Explorer | 探索台灣</title>
+    <!-- 引入 Google 字體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+    <!-- 引入 FontAwesome 圖示 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 導覽列 -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1 class="logo"><a href="#home"><i class="fa-solid fa-leaf"></i> Taiwan Explorer</a></h1>
+            <ul class="nav-links">
+                <li><a href="#about">認識台灣</a></li>
+                <li><a href="#destinations">熱門景點</a></li>
+                <li><a href="#cuisine">特色美食</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="切換深淺色模式">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首頁橫幅 -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2>探索亞洲之心</h2>
+            <p>高山、海洋、美食與熱情的人情味，發現台灣的無限魅力。</p>
+            <a href="#about" class="btn">開始探索</a>
+        </div>
+    </header>
+
+    <!-- 認識台灣 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">認識台灣</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>台灣位於西太平洋的中心，是一座充滿活力的美麗島嶼。這裡擁有豐富的自然景觀，從超過三千公尺的百岳高山，到迷人的海岸線，同時融合了多元的文化歷史與現代化的科技發展。</p>
+                    <p>無論您是熱愛戶外冒險、歷史文化，還是尋找世界級的美食，台灣都能滿足您的期待。</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <i class="fa-solid fa-mountain"></i>
+                        <h3>268+</h3>
+                        <p>3000公尺以上高山</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fa-solid fa-store"></i>
+                        <h3>13,000+</h3>
+                        <p>便利商店密度世界第二</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fa-solid fa-train-subway"></i>
+                        <h3>348 km</h3>
+                        <p>高鐵貫穿西部走廊</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 熱門景點 -->
+    <section id="destinations" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">熱門景點</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1552993873-0aa1140e76fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="台北101">
+                    <div class="card-content">
+                        <h3>台北 101 (Taipei 101)</h3>
+                        <p>曾是世界最高的摩天大樓，融合了東方古典與現代科技的設計，是台北的指標性地標。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1577784534440-6218d8050e02?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="太魯閣國家公園">
+                    <div class="card-content">
+                        <h3>太魯閣 (Taroko Gorge)</h3>
+                        <p>世界級的峽谷景觀，大理石岩層經過立霧溪千萬年的切割，造就了壯麗的自然奇觀。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1574340332306-1bc0ea50ff2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="日月潭">
+                    <div class="card-content">
+                        <h3>日月潭 (Sun Moon Lake)</h3>
+                        <p>台灣最大的高山湖泊，湖面如鏡，四周群山環抱，被 CNN 評選為全球最美自行車道之一。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特色美食 -->
+    <section id="cuisine" class="section">
+        <div class="container">
+            <h2 class="section-title">特色美食</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1558855567-1a42825bf1ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="珍珠奶茶">
+                    <div class="card-content">
+                        <h3>珍珠奶茶 (Bubble Tea)</h3>
+                        <p>發源於台灣的世界級飲品，Q彈的粉圓搭配香濃奶茶，是來台必嚐的國民飲料。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="牛肉麵">
+                    <div class="card-content">
+                        <h3>牛肉麵 (Beef Noodle Soup)</h3>
+                        <p>醇厚的湯頭、軟嫩的牛肉與Q彈的麵條，完美展現了台灣的麵食文化。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="小籠包">
+                    <div class="card-content">
+                        <h3>小籠包 (Xiaolongbao)</h3>
+                        <p>皮薄餡多，咬下時充滿鮮甜的湯汁，是揚名國際的精緻點心代表。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2><i class="fa-solid fa-leaf"></i> Taiwan Explorer</h2>
+                    <p>Discover the Heart of Asia</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Taiwan Explorer. Designed for GitHub Pages. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
